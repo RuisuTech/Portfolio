@@ -23,9 +23,8 @@ function SobreMi() {
                 className="rounded-full border-[#202020] border-[1px] w-[300px] md:w-[450px]"
                 src="/Gato.webp"
                 alt="Perfil"
-                width="300" // Tamaño fijo para evitar CLS
-                height="300" // Tamaño fijo para evitar CLS
-                loading="lazy" // Carga diferida para mejorar el rendimiento
+                width="450" // Ajuste para el tamaño de la imagen
+                height="450" // Ajuste para el tamaño de la imagen
               />
             </div>
           </div>
