@@ -20,11 +20,9 @@ function SobreMi() {
           <div>
             <div className="rounded-full p-4 border-[#202020] border-[1px] bg-[#1E1D1D33] mt-4">
               <img
-                className="rounded-full border-[#202020] border-[1px] md:w-[450px] w-[350px]"
+                className="rounded-full border-[#202020] border-[1px] md:w-[450px] md:h-[450px] w-[350px] h-[350px]"
                 src="/Gato.webp"
                 alt="Perfil"
-                width="450" // Ancho explícito para dispositivos grandes
-                height="450" // Altura explícita para dispositivos grandes
               />
             </div>
           </div>
