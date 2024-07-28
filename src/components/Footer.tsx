@@ -1,5 +1,4 @@
-import CopiarGmail from "./CopiarGmail";
-import DescargarCV from "./DescargarCV";
+import ContactoBtn from "./ContactoBtn";
 
 function Footer() {
   return (
@@ -10,8 +9,7 @@ function Footer() {
           JoseLuisOsorioGuzman11@gmail.com
         </p>
         <div className="flex text-sm font-normal gap-2">
-          <DescargarCV />
-          <CopiarGmail />
+          <ContactoBtn/>
         </div>
       </div>
     </>

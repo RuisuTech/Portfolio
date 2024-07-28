@@ -1,4 +1,4 @@
-import CopiarGmail from "./CopiarGmail";
+import CopiarGmail from "./ContactoBtn";
 import DescargarCV from "./DescargarCV";
 import Header from "./Header";
 

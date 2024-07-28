@@ -1,5 +1,4 @@
-import CopiarGmail from "./CopiarGmail";
-import DescargarCV from "./DescargarCV";
+import ContactoBtn from "./ContactoBtn";
 
 function SobreMi() {
   return (
@@ -12,9 +11,8 @@ function SobreMi() {
               Full Stack Developer <br />
               JoseLuisOsorioGuzman11@gmail.com
             </p>
-            <div className="flex text-sm font-normal gap-2 w-[215px]">
-              <DescargarCV />
-              <CopiarGmail />
+            <div className="flex text-sm font-normal gap-2 w-[250px]">
+              <ContactoBtn />
             </div>
           </div>
           <div>
