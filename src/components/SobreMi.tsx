@@ -12,7 +12,7 @@ function SobreMi() {
               Full Stack Developer <br />
               JoseLuisOsorioGuzman11@gmail.com
             </p>
-            <div className="flex text-sm font-normal gap-2">
+            <div className="flex text-sm font-normal gap-2 w-[215px]">
               <DescargarCV />
               <CopiarGmail />
             </div>
@@ -20,7 +20,7 @@ function SobreMi() {
           <div>
             <div className="rounded-full p-4 border-[#202020] border-[1px] bg-[#1E1D1D33] mt-4">
               <img
-                className="rounded-full border-[#202020] border-[1px] w-[300px] md:w-[auto]"
+                className="rounded-full border-[#202020] border-[1px] w-[300px] md:w-[450px]"
                 src="/Gato.webp"
                 alt="Perfil"
               />
@@ -28,13 +28,15 @@ function SobreMi() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center text-center">
-          <h1 className="text-5xl font-bold">Sobre mi</h1>
-          <p className="w-[300px] md:w-[745px]  text-lg font-normal pt-4">
-            Soy una persona apasionada por la programación y estoy decidido a
-            aprender de manera autodidacta y convertirme en un desarrollador de
-            software competente. Estoy en busca de oportunidades que me permitan
-            aplicar mis conocimientos y crecer como programador.
-          </p>
+          <div className="w-[300px] flex flex-col justify-center items-center text-center">
+            <h1 className="text-5xl font-bold">Sobre mi</h1>
+            <p className="w-[300px] md:w-[745px]  text-lg font-normal pt-4">
+              Soy una persona apasionada por la programación y estoy decidido a
+              aprender de manera autodidacta y convertirme en un desarrollador
+              de software competente. Estoy en busca de oportunidades que me
+              permitan aplicar mis conocimientos y crecer como programador.
+            </p>
+          </div>
         </div>
       </div>
     </>
