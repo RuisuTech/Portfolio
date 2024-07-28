@@ -10,7 +10,7 @@ function DescargarCV() {
   return (
     <button
       onClick={DescargarCV}
-      className="bg-[#27AE60] hover:bg-[#1d9c53] hover:border-[#ffe74e] border-[1px] px-2 py-1"
+      className="bg-[#2D7D32] hover:bg-[#1B5E20] hover:border-[#FFC107] border-[1px] px-2 py-1"
     >
       Descargar CV
     </button>
