@@ -6,7 +6,4 @@ export default defineConfig({
   build: {
     outDir: 'dist',  // Directorio de salida para la construcción
   },
-  server: {
-    // Opcional: configuración del servidor de desarrollo
-  }
 });
