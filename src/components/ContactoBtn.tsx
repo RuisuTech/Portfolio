@@ -19,8 +19,8 @@ function ContactoBtn() {
   const DescargarCV = () => {
     // Crear un enlace temporal y hacer clic en él para descargar el archivo
     const link = document.createElement("a");
-    link.href = "/Jose_Luis_Osorio_Guzman_CV.pdf"; // Asegúrate de ajustar la ruta del archivo
-    link.download = "Jose_Luis_Osorio_Guzman_CV.pdf"; // Nombre del archivo que se descargará
+    link.href = "/JoseLuisGuzman_CV.pdf"; // Asegúrate de ajustar la ruta del archivo
+    link.download = "JoseLuisGuzman_CV.pdf"; // Nombre del archivo que se descargará
     link.click();
   };
 
