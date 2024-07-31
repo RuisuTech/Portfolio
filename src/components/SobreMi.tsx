@@ -11,7 +11,7 @@ function SobreMi() {
               Full Stack Developer <br />
               JoseLuisOsorioGuzman11@gmail.com
             </p>
-            <div className="flex text-sm font-normal gap-2 w-[250px]">
+            <div className="flex text-sm font-normal gap-2 w-full justify-center md:justify-start">
               <ContactoBtn />
             </div>
           </div>
