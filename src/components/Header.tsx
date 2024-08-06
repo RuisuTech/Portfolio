@@ -30,6 +30,7 @@ function Header() {
         <button
           className="md:hidden flex flex-col justify-center items-center w-8 h-8 relative"
           onClick={toggleMenu}
+          aria-label={isOpen ? "Cerrar menú" : "Abrir menú"}
         >
           <span
             className={`block w-full h-[2px] bg-white absolute transition-transform duration-300 ${
