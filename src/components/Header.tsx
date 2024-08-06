@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="fixed top-0 z-40 w-[80%] h-[72px] bg-[#171717E6] backdrop-blur-sm">
-      <div className="flex md:justify-between justify-center items-center p-4">
+    <header className="fixed top-0 z-40 md:px-[10%] w-screen h-[72px] bg-[#171717E6] backdrop-blur-lg">
+      <div className="flex md:justify-between h-full justify-center items-center gap-4">
         <Link
-          className="text-4xl font-bold hidden md:block hover:text-[#1d9c53]"
+          className="text-4xl font-bold hover:text-[#1d9c53]"
           to="/"
         >
           JLG
