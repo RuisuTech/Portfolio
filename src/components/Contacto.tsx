@@ -4,7 +4,7 @@ import Header from "./Header";
 function Contacto() {
   return (
     <>
-      <div className="h-screen md:px-[10%]">
+      <div className="h-screen">
         <Header />
         <div className="flex h-[80vh] flex-col justify-center items-center text-center gap-4 pt-[72px]">
             <h1 className="text-5xl font-bold">Hola, Soy Jose Luis Guzman</h1>

@@ -5,7 +5,7 @@ import Proyectos from './Proyectos';
 function RouterProyectos() {
   return (
     <>
-      <div className="md:px-[10%]">
+      <div>
         <Header />
         <Proyectos />
         <Footer />

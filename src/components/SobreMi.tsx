@@ -5,7 +5,7 @@ import Header from "./Header";
 function SobreMi() {
   return (
     <>
-      <div className="">
+      <div>
         <Header />
         <div className="flex justify-center md:justify-between items-center p-4 flex-wrap mt-[72px] px-[10%]">
           <div className="flex flex-col md:items-start items-center text-center gap-4">
@@ -21,7 +21,7 @@ function SobreMi() {
           <div>
             <div className="rounded-full p-4 border-[#202020] border-[1px] bg-[#1E1D1D33] mt-4">
               <img
-                className="rounded-full object-cover border-[#202020] border-[1px] md:w-[450px] md:h-[450px] w-[350px] h-[350px]"
+                className="rounded-full object-cover border-[#202020] border-[1px] md:w-[450px] md:h-[450px] w-[250px] h-[250px]"
                 src="/Gato.webp"
                 alt="Perfil"
               />
