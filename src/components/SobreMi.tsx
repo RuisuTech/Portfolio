@@ -1,10 +1,12 @@
 import ContactoBtn from "./ContactoBtn";
+import Header from "./Header";
 
 function SobreMi() {
   return (
     <>
-      <div>
-        <div className="flex justify-center md:justify-between items-center p-4 flex-wrap">
+      <div className="md:px-[10%]">
+        <Header />
+        <div className="flex justify-center md:justify-between items-center p-4 flex-wrap mt-[72px]">
           <div className="flex flex-col md:items-start items-center text-center gap-4">
             <h1 className="text-5xl font-bold">Hola, Soy Jose Luis Guzman</h1>
             <p className="text-lg font-medium text-center md:text-left text-[#828282]">
