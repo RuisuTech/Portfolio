@@ -7,6 +7,7 @@ import Proyectos from './components/Proyectos';
 import Tecnologias from './components/Tecnologias';
 import Contacto from './components/Contacto';
 import RouterProyectos from './components/RouterProyectos'; // Importa RouterProyectos
+import Error from './components/Error';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         } />
         <Route path="/Proyectos" element={<RouterProyectos />} />
         <Route path="/Contacto" element={<Contacto />} />
+        <Route path="/*" element={<Error />} />
         {/* Otras rutas */}
       </Routes>
     </BrowserRouter>
