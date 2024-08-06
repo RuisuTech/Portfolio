@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /carpeta-privada/
-Allow: /carpeta-publica/
-Sitemap: https://www.joseluisguzman.com/
+Disallow:
+Allow:
+Sitemap: https://joseluisguzman.com/
