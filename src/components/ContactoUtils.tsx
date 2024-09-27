@@ -10,7 +10,7 @@ export const copyEmailToClipboard = async (email: string): Promise<string> => {
   
   export const downloadCV = (filename: string) => {
     const link = document.createElement("a");
-    link.href = `/${filename}`; // Asegúrate de ajustar la ruta del archivo
+    link.href = `/${filename}`;
     link.download = filename;
     link.click();
   };

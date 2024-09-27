@@ -22,7 +22,6 @@ function Header() {
           JLG
         </Link>
 
-        {/* Botón de hamburguesa */}
         <button
           className="md:hidden flex flex-col justify-center items-center w-8 h-8 relative"
           onClick={toggleMenu}
@@ -45,7 +44,6 @@ function Header() {
           ></span>
         </button>
 
-        {/* Menú de navegación */}
         <nav
           className={`${
             isOpen ? "flex bg-[#171717]" : "hidden"

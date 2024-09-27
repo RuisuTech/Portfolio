@@ -8,12 +8,11 @@ function ContactoBtn() {
   const handleCopy = async () => {
     const resultMessage = await copyEmailToClipboard(email);
     setMessage(resultMessage);
-    // Oculta el mensaje después de 3 segundos
     setTimeout(() => setMessage(null), 3000);
   };
 
   const handleDownloadCV = () => {
-    downloadCV("JoseLuisGuzman_CV.pdf"); // Ajusta el nombre del archivo si es necesario
+    downloadCV("JoseLuisGuzman_CV.pdf");
   };
 
   return (
