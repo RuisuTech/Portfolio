@@ -1,40 +1,32 @@
 import { useState } from "react";
+import { copyEmailToClipboard, downloadCV } from "./ContactoUtils";
 
 function ContactoBtn() {
   const [message, setMessage] = useState<string | null>(null);
   const email = "JoseLuisOsorioGuzman11@gmail.com";
 
-  const Copy = async () => {
-    try {
-      await navigator.clipboard.writeText(email);
-      setMessage("Correo copiado al portapapeles");
-    } catch (err) {
-      console.error("Error al copiar el correo:", err);
-      setMessage("No se pudo copiar el correo al portapapeles.");
-    }
+  const handleCopy = async () => {
+    const resultMessage = await copyEmailToClipboard(email);
+    setMessage(resultMessage);
     // Oculta el mensaje después de 3 segundos
     setTimeout(() => setMessage(null), 3000);
   };
 
-  const DescargarCV = () => {
-    // Crear un enlace temporal y hacer clic en él para descargar el archivo
-    const link = document.createElement("a");
-    link.href = "/JoseLuisGuzman_CV.pdf"; // Asegúrate de ajustar la ruta del archivo
-    link.download = "JoseLuisGuzman_CV.pdf"; // Nombre del archivo que se descargará
-    link.click();
+  const handleDownloadCV = () => {
+    downloadCV("JoseLuisGuzman_CV.pdf"); // Ajusta el nombre del archivo si es necesario
   };
 
   return (
-    <div className="">
+    <div>
       <div className="flex gap-2">
         <button
-          onClick={DescargarCV}
+          onClick={handleDownloadCV}
           className="bg-[#27AE60] text-[#171717] hover:bg-[#1d9c53] border-[#1d9c53] border-[1px] px-3 py-2"
         >
           Descargar CV
         </button>
         <button
-          onClick={Copy}
+          onClick={handleCopy}
           className="bg-[#171717] hover:bg-[#3D3D3D] border-[#F2F2F2] border-[1px] px-3 py-2"
         >
           Copiar Gmail
