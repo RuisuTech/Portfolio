@@ -32,7 +32,7 @@ function SobreMi() {
           <div className="w-[300px] flex flex-col justify-center items-center text-center">
             <h1 className="text-5xl font-bold">Sobre mi</h1>
             <p className="w-[300px] md:w-[745px] text-lg font-normal pt-4">
-              Soy una persona apasionada por la programación y estoy decidido a
+              Estoy decidido a
               aprender de manera autodidacta y convertirme en un desarrollador
               de software competente. Estoy en busca de oportunidades que me
               permitan aplicar mis conocimientos y crecer como programador.

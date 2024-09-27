@@ -23,7 +23,6 @@ function Tecnologias() {
               <h1>Back-End</h1>
               <div className="flex flex-wrap justify-center gap-4">
                 <img className="w-auto h-[75px] mt-4" src="Java.webp" alt="Java" />
-                <img className="w-auto h-[75px] mt-4" src="Spring.webp" alt="Spring" />
                 <img className="w-auto h-[75px] mt-4" src="SQL.webp" alt="SQL" />
               </div>
             </div>

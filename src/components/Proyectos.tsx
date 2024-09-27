@@ -7,22 +7,25 @@ function Proyectos() {
         <h1 className="text-5xl font-bold">Proyectos</h1>
         <div className="flex flex-wrap items-center justify-center my-4 gap-4 w-full">
           <Tarjeta
-            name={"Gato"}
-            tech={"React"}
-            link={"#"}
-            repo={"https://github.com/RuisuTech"}
+            name={"Enlaces Sociales"}
+            tech={"React TypeScript Talwind"}
+            link={"https://social-links-beige.vercel.app/"}
+            repo={"https://github.com/RuisuTech/Social-Links"}
+            portada={"LinksCard.jpeg"}
           />
           <Tarjeta
-            name={"Gato"}
-            tech={"React"}
-            link={"#"}
-            repo={"https://github.com/RuisuTech"}
+            name={"Copia Netflix"}
+            tech={"React TypeScript Talwind"}
+            link={"https://net-waifu.vercel.app/"}
+            repo={"https://github.com/RuisuTech/NetWaifu"}
+            portada={"NetWaifu.jpeg"}
           />
           <Tarjeta
-            name={"Gato"}
-            tech={"React"}
-            link={"#"}
-            repo={"https://github.com/RuisuTech"}
+            name={"Form Card"}
+            tech={"React TypeScript Talwind"}
+            link={"https://form-card-phi.vercel.app/"}
+            repo={"https://github.com/RuisuTech/Form-Card"}
+            portada={"FormCard.jpeg"}
           />
         </div>
       </div>
