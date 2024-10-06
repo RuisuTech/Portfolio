@@ -6,21 +6,21 @@ const proyectos = [
     tech: "React TypeScript Tailwind",
     link: "https://social-links-beige.vercel.app/",
     repo: "https://github.com/RuisuTech/Social-Links",
-    portada: "LinksCard.jpeg",
+    portada: "LinksCard.webp",
   },
   {
     name: "Copia Netflix",
     tech: "React TypeScript Tailwind",
     link: "https://net-waifu.vercel.app/",
     repo: "https://github.com/RuisuTech/NetWaifu",
-    portada: "NetWaifu.jpeg",
+    portada: "NetWaifu.webp",
   },
   {
     name: "Form Card",
     tech: "React TypeScript Tailwind",
     link: "https://form-card-phi.vercel.app/",
     repo: "https://github.com/RuisuTech/Form-Card",
-    portada: "FormCard.jpeg",
+    portada: "FormCard.webp",
   },
 ];
 
